@@ -11,7 +11,7 @@ import { Revenue } from '@/app/lib/definitions';
 
 export default async function RevenueChart({
   revenue,
-}: {
+}: {   //this is a type for  revenue as  props  
   revenue: Revenue[];
 }) {
   const chartHeight = 350;
